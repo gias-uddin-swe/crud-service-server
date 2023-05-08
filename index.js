@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 //     "mongodb://test1:5Yw1F4V3xB38rRPm@ac-ne4tufh-shard-00-00.ofkrvlo.mongodb.net:27017,ac-ne4tufh-shard-00-01.ofkrvlo.mongodb.net:27017,ac-ne4tufh-shard-00-02.ofkrvlo.mongodb.net:27017/?ssl=true&replicaSet=atlas-b40t0a-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 const uri =
-  "mongodb+srv://mydb1:XXn2fZ31f3jigDbg@cluster0.ofkrvlo.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://mydb1:yourpassword@cluster0.ofkrvlo.mongodb.net/?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri, {
   serverApi: {
